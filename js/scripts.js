@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded',function(){
     btnCheck = document.querySelector('#btn_check');
     
     
+    
     // Some basic strings methods in JS
     // name = "Marcin";
     // surname = "Wo";
