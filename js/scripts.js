@@ -74,11 +74,56 @@ document.addEventListener('DOMContentLoaded',function(){
         
     // });
 
-    btnCheck.addEventListener('click', function(){
 
-        h1tag.innerHTML = 'Woo';
+    // ARRAYS
+
+    // let ages = [23,42,35,46,34,6,34,243,25,,63,46,34], arr_fun;
+    // let names = ['marta','karla','anita','marlena', 'anna'];
+
+    // arr_fun = ages.length;
+    // arr_fun = ages.indexOf(34);
+    
+    // Adds item to the end of the array
+    // ages.push(54,34,5,32,46,56,75,43,7,3,45,63,42,4);
+
+    // Adds item to the front of the array
+    // ages.unshift('DRATA');
+
+    // Removes item from the top (element 0)
+    // ages.shift();
+
+    // Adds the element at a given index
+    //  ages.splice(2,null,'LALALAND');
+
+    // Remove the item from the bottom of the array
+    //ages.pop();
+
+    // Merging arrays
+    //    arr_fun = ages.concat(names);
+
+
+    // Sorting arrays
+    // arr_fun = names.sort().reverse();
+
+    // For sorting numbers one need to write the function that sorts the numbers
+    // arr_fun = ages.sort(function(num_a, num_b){
+    //     return num_a - num_b;
+    // });
+
+
+    // btnCheck.addEventListener('click', function(){
+
+    //     h1tag.innerHTML = arr_fun;
+    //     console.log(arr_fun);
         
-    });
+        
+    // });
+
+    // ages.forEach(function(age){
+    //     console.log(age);
+        
+    // });
+
 
 
     
