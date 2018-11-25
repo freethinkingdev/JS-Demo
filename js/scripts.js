@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded',function(){
-    let name, surname, h1tag, btnCheck, person, out;
+    // let name, surname, person, out;
 
-    h1tag = document.querySelector('.beginner_class');
-    btnCheck = document.querySelector('#btn_check');
+    let h1tag = document.querySelector('.beginner_class');
+    let btnCheck = document.querySelector('#btn_check');
     
     
 
@@ -123,6 +123,40 @@ document.addEventListener('DOMContentLoaded',function(){
     //     console.log(age);
         
     // });
+
+    
+
+    // let person_mw = {
+    //     first_name: 'Marcin',
+    //     last_name: 'Wuu',
+    //     email: 'email@email.com',
+    //     work: 'Web Developer',
+    //     education: true,
+    //     driving_licence: true,
+    //     age: 35,
+    //     getDOB: function() {
+    //         return new Date().getFullYear() - this.age;
+    //     },
+    //     getWork: function(){
+    //         return `He works as a ${this.work}.`;
+    //     },
+    //     family: ['wife','children']
+    // };
+
+
+    // let math_stuff = {
+    //     add_me: function(numA=0,numB=0){
+    //         return `Total of the addition ${numA} and ${numB} is ${numA+numB}.`;
+            
+    //     }
+    // };
+   
+    
+    btnCheck.addEventListener('click', function(){
+        h1tag.innerHTML = math_stuff.add_me(-3,15);
+        console.log(math_stuff.add_me(10,15));
+        
+    });
 
 
 
