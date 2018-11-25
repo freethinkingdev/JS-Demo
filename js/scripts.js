@@ -221,11 +221,86 @@ document.addEventListener('DOMContentLoaded',function(){
         
 
 
-        
+
 
     });
 
 
+    let new_names = ['ada', 'madzia', 'natalia', 'magda', 'martyna'];
+    let cars = [
+        {
+            make: 'BMW',
+            color: 'Blue'
+        },
+        {
+            make: 'Ford',
+            color: 'Red'
+        },
+        {
+            make: 'Fiat',
+            color: 'Indigo'
+        }
+    ];
 
+    // for(let i =0;i<new_names.length; i++){
+    //     console.log(new_names[i]);
+        
+    // }
     
+    // new_names.forEach(function(el){
+    //     console.log(el);
+        
+    // });
+
+    // let car_colors = cars.map(function(color){
+    //     return color.color;
+    // });
+
+    // console.log(car_colors);
+    // console.log(typeof car_colors);
+    
+    
+
+
+    // let computerPc = {
+    //     make: 'Microsoft',
+    //     model: 'Surface',
+    //     cpu: 'i7',
+    //     memory: 16,
+    //     memoryUnit: 'GB'
+    // };
+
+    // for(let key in computerPc){
+    //     console.log(`${key.toUpperCase()} :: ${computerPc[key]}`);
+        
+    // };
+
+
+    // some try and catch basic
+
+
+    // function elloMessage2(){
+    //     console.log('This is the elllo message....');
+
+    //     setTimeout(function(){
+    //         console.log('This is the yello message....');
+    //     },2000);
+        
+    // }
+
+    // try {
+    //     elloMessage();
+    // } catch(er) {
+    //     console.error(`There is no such funciton. ${er}`);
+    
+    // }
+    
+    
+    
+    // console.log('RULES.');
+
+
+
+    window.navigator.vibrate(200);
+
 });
