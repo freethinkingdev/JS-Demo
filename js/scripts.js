@@ -298,9 +298,7 @@ document.addEventListener('DOMContentLoaded',function(){
     
     
     // console.log('RULES.');
+    
 
-
-
-    window.navigator.vibrate(200);
 
 });
