@@ -150,12 +150,79 @@ document.addEventListener('DOMContentLoaded',function(){
             
     //     }
     // };
-   
+
+
+
+    // let dzisiaj = new Date();
+    // let data_nowa;
     
+
+    // data_nowa = dzisiaj.();
+
+
+
+
+
+
+
+
+
+    
+
+
+
     btnCheck.addEventListener('click', function(){
-        h1tag.innerHTML = math_stuff.add_me(-3,15);
-        console.log(math_stuff.add_me(10,15));
+
+        let simple_iterator = 0;
+        // let some_name = prompt('What is your name love?');
+        let some_name = 'Amy';
+        let temp_string, temp_name;
+            temp_name = some_name.toUpperCase();
+
+        switch(some_name.toLowerCase()){
+            case 'anna':
+                temp_string = `Hello ${temp_name}. We have been waiting for you!`;
+                break;
+
+            case 'samanta':
+                temp_string = `Hello ${temp_name}. We have a cookie for you!`;
+                break;
+            case 'alex':
+                temp_string = `Hello ${temp_name}. Nice car you got there!`;
+                break;
+
+            default:
+                temp_string = `Hello ${temp_name}. Thanks for stopping by :)`;
+        }
+
+        // if (some_name == 'Anna') {
+        //     temp_string = `Hello ${some_name}. We have been waiting for you!`;
+        // } else if (some_name == 'Samanta') {
+        //     temp_string = `Hello ${some_name}. We have your cookie ready.`;
+        // } else {
+        //     temp_string = `Hello ${some_name}. Thanks for stopping by :)`;
+        // }
+
+        h1tag.innerHTML = temp_string;
+        // for(let i=0;i<10;i++){
+        //     console.log(i);
+        // };
+
+        // while(simple_iterator<10){
+        //     console.log(`Iterator value: ${simple_iterator}`);
+            
+        //     simple_iterator++;
+        // };
         
+        // do {
+        //     console.log(simple_iterator);
+        //     simple_iterator++;
+        // } while (simple_iterator<=0);
+        
+
+
+        
+
     });
 
 
