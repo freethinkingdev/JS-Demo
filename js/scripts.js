@@ -299,6 +299,11 @@ document.addEventListener('DOMContentLoaded',function(){
     
     // console.log('RULES.');
     
+    let windHeight = window.innerHeight;
+    let windWidth = window.innerWidth;
 
+    btnCheck.addEventListener('click',function(){
+        alert(`Height: ${windHeight}. Width: ${windWidth}`);
+    });
 
 });
